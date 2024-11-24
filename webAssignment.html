@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>web assignment</title>
+        <style>
+            header{
+                width: 100%;
+                height: 100px;
+                background-color: aquamarine;
+            }
+            #toLogin{
+                float: right;
+            }
+            nav{
+                width: 30%;
+                height: 500px;
+                background-color: aqua;
+                float: left;
+            }
+            footer{
+                width: 100%;
+               height: 100px;
+               background-color: rgb(43, 214, 226); 
+               float: inline-end;
+            }
+            main{
+                width: 70%;
+                height: 500px;
+                background-color: antiquewhite;
+                float: right;
+            }
+            iframe{
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            this is a header part
+            <p>search <input type="search" name="search" value="search" size="20"><img src="search images (1).png" width="15px" height="15px"></p>
+            <a id="toLogin" href="login.html" target="contentframe" >login</a>
+
+            <button type="button" style="background-color: blue; float: right;">signout</button>
+            
+        </header>
+        <nav>
+            thi is navigation part
+            <a href="gallery.html" target="contentframe">gallary</a>
+            <br>
+            <a href="story.html" target="contentframe" > story </a>
+            <br>
+            <a href="content me.html" target="contentframe">content me</a>
+            
+           
+            
+        </nav>
+        <main>this is main part   
+          <iframe name="contentframe"></iframe> 
+        </main>
+        <footer><p>&copy; 2024 Your Name. All rights reserved.</p>
+        <a href="term and condition.html" target="contentframe" style="float: right;">terms&conditions</a>
+        </footer>
+    </body>
+</html>
